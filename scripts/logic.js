@@ -35,8 +35,18 @@ function doMath(operation, a, b) {
   }
   // write your code below this comment:
 
-
-
+      if (operation =='add'){
+         return a + b;
+      } else  if (operation == 'min'){
+         return a - b;
+      }  else  if (operation == 'div'){
+         return a / b;
+      } 
+      else  if (operation == 'mul'){
+         return a * b;
+      } else {
+        return `invalid operation`;
+      }
 }
 
 
